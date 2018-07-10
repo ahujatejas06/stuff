@@ -12,13 +12,13 @@
 <body>
   <link rel = "stylesheet" type = "text/css" href = "css/header.css">
   
-<div id="navbar" class = "background">
+<div id="navbar" class ="change">
   <script src = "Scripts/header.js"></script>
   <div class = "headerlogo">
     Stuff
   </div>
   
-  <a href="#about">About</a>
+  <a class="end" href="#about">About</a>
   <a class="active" href="#navbar">Home</a>
   
 </div>

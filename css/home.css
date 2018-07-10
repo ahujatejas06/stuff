@@ -2,6 +2,8 @@
 #particles-js {
   height: 91.25vh;
   position:relative; 
+  top: 0;
+  height: 100vh;
   padding: 0;
   margin: 0;
   background-size: cover;
@@ -9,7 +11,8 @@
   width: 100%;
   background-color: #000000;
   background-image: url("https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-position: 50% 50%; 
+  /*background-position: 50% 50%; */
+  background-position: top;
   z-index:0;
 }
 .overlay {

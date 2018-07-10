@@ -1,14 +1,8 @@
-
-
-
-
-
-
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop + 600;
-var link = document.getElementByClassName("active")
+var sticky = 550;
+var link = document.getElementByClassName("active");
 
 
 function myFunction() {
