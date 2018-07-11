@@ -8,7 +8,7 @@
 	}
 </style>
 <div class="footer">
-	<em>&copy; 2018 Tejas Ahuja</em>
+	<em>&copy; 2018 Tejas Ahuja and Anshul Mahajan</em>
 </div>
         </body>
 </html>
