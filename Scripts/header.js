@@ -9,7 +9,7 @@ function myFunction() {
   if (window.pageYOffset > sticky) {
     navbar.classList.add("sticky");
     navbar.classList.remove("background");
-
+    
         
   } else if (window.pageYOffset <= sticky){
   	

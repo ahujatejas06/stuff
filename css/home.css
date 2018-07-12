@@ -47,7 +47,7 @@ div > p {
   height: 50vh;
   position: relative;
   
-  background-image: url("/mySite/Public/images/logo.jpg");
+  background-image: url("https://images.pexels.com/photos/48605/pexels-photo-48605.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
   background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -68,5 +68,45 @@ div > p {
   text-align: center;
   top:8.75rem;
 }
+section #scrolldown {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
+
+
+
+#scrolldown a {
+  padding-top: 80px;
+}
+#scrolldown a span {
+  position: absolute;
+  bottom:4rem;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+  transform: rotate(-45deg);
+  animation: anim 2s infinite;
+  opacity: 0;
+  box-sizing: border-box;
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+    bottom:4rem;
+  }
+  50% {
+    opacity: 1;
+    
+  }
+  100% {
+    opacity: 0;
+    bottom:3rem;
+  }
+}
 /*# sourceMappingURL=home.css.map */
