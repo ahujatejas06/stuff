@@ -1,7 +1,8 @@
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
-var sticky = 550;
+var sticky = $(document).height() - 66;
 var link = document.getElementByClassName("active");
 
 
@@ -20,3 +21,4 @@ function myFunction() {
     
   } 
 }
+

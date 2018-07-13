@@ -4,6 +4,7 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> <?php echo $title." | Stuff"; ?> </title>
 
@@ -11,6 +12,7 @@
 
 </head>
 <body>
+	
   <link rel = "stylesheet" type = "text/css" href = "css/header.css">
   
 <div id="navbar" class ="change">
