@@ -4,7 +4,7 @@
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
-
+<link rel = "icon" href = "Public/images/logo.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> <?php echo $title." | Stuff"; ?> </title>
 
