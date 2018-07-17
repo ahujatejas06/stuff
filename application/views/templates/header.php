@@ -21,8 +21,8 @@
     Stuff
   </div>
   
-  <a class="end" href="#about">About</a>
-  <a class="active" href="#navbar">Home</a>
+  <a class="unactive" href="#about">About</a>
+  <a class="active" href="#particles-js">Home</a>
   
 </div>
 
