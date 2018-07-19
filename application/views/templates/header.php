@@ -12,9 +12,11 @@
 
 </head>
 <body>
-	
+	<section id="loader">
+		<h1>0</h1>
+	</section>
   <link rel = "stylesheet" type = "text/css" href = "css/header.css">
-  
+  <section id="visible">
 <div id="navbar" class ="change">
   <script src = "Scripts/header.js"></script>
   <div class = "headerlogo">
@@ -23,7 +25,6 @@
   
   <a class="unactive" href="#about">About</a>
   <a class="active" href="#particles-js">Home</a>
-  
 </div>
 
 </body>

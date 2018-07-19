@@ -10,6 +10,34 @@ body {
  *{
   font-family:'Teko',sans-serif;
  }
+#loader {
+  height:100vh;
+  background-color:#000000;
+  background-position: center;
+  margin:0;
+  padding:0;
+  display:none;
+  position:relative;
+  width:100%;
+
+
+}
+#visible {
+  display:none;
+}
+#loader h1{
+  text-align: center;
+  top:47vh;
+
+  position:absolute;
+}
+
+
+
+
+
+
+
 #navbar {
   z-index: 100;
     position: fixed;
@@ -78,6 +106,7 @@ body {
   /*position: fixed;
   top:0;*/
   width: 100%;
+  transition:all 0.25s;
 
 }
 .end{

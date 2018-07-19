@@ -1,4 +1,5 @@
 @import url(https:fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url('https://fonts.googleapis.com/css?family=Righteous');
 #particles-js {
   height: 91.25vh;
   position:relative; 
@@ -29,7 +30,7 @@
   z-index:100;
   top:45vh;
   position:absolute;
-  font-family: 'Amatic',sans-serif;
+  font-family: 'Righteous',sans-serif;
   width:100%;
   color:white;
   text-align: center;

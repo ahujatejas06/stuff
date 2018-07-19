@@ -10,5 +10,6 @@
 <div class="footer">
 	<em>&copy; 2018 Tejas Ahuja and Anshul Mahajan</em>
 </div>
+</section>
         </body>
 </html>
