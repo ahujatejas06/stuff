@@ -1,6 +1,17 @@
+
+function loading_anim() {
+  // alert("hello");
+  var p  = 0;
+  for (p=0;p<101;p++){
+    
+    document.getElementById("counter").innerHTML = p + "%";
+    delay(100);
+  }
+}
 window.document.onload = function () {
 	var visible = document.getElementById("visible");
 	var notvisible = document.getElementById("loader");
+  
 	
 }
 window.onscroll = function() {myFunction()};
@@ -24,4 +35,5 @@ function myFunction() {
     
   } 
 }
+
 

@@ -11,9 +11,9 @@
 
 
 </head>
-<body>
+<body onload="loading_anim()">
 	<section id="loader">
-		<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+		<div class="lds-ring"></div>
     <div id="counter">0%</div>
 
 	</section>
