@@ -1,7 +1,7 @@
 window.document.onload = function () {
 	var visible = document.getElementById("visible");
 	var notvisible = document.getElementById("loader");
-	$
+	
 }
 window.onscroll = function() {myFunction()};
 

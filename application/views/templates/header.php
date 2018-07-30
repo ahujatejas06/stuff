@@ -13,7 +13,9 @@
 </head>
 <body>
 	<section id="loader">
-		<h1>0</h1>
+		<div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    <div id="counter">0%</div>
+
 	</section>
   <link rel = "stylesheet" type = "text/css" href = "css/header.css">
   <section id="visible">
