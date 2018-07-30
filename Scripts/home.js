@@ -1,5 +1,15 @@
+
 // $ count = 0;
 $(document).ready(function(){
+  
+
+  $("#visible").css("display","none");
+  for(var p = 0; p<=100;p++) {
+    $("#counter").delay(10000).html(p+"%");
+    $(this).delay(10000);
+  }
+  $("#loader").css("display","none");
+  $("#visible").css("display","block");
 	$("body, html").scrollTop(0);
 	$("a").on('click', function(event) {
 

@@ -23,7 +23,7 @@ body {
 
 }
 #visible {
-  display:none;
+  display:block;
 }
 #loader h1{
   text-align: center;

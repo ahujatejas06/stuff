@@ -11,7 +11,8 @@
 
 
 </head>
-<body onload="loading_anim()">
+<body>
+  
 	<section id="loader">
 		<div class="lds-ring"></div>
     <div id="counter">0%</div>
