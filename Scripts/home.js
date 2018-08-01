@@ -2,7 +2,7 @@ var p;
 $(document).ready(function(){
   setTimeout(function(){ 
     for(p = 0; p < 101; p++) {
-      $("#counter").html(p+"%");
+      document.getElementById("counter").innerHTML = p + "%";
     }
   $("#loader").css("display","none");
   $("#visible").css("display","block");
