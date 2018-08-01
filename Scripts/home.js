@@ -1,16 +1,17 @@
-
-// $ count = 0;
+var p;
 $(document).ready(function(){
-  
-
-  $("#visible").css("display","none");
-  for(var p = 0; p<=100;p++) {
-    $("#counter").delay(10000).html(p+"%");
-    $(this).delay(10000);
-  }
+  setTimeout(function(){ 
+    for(p = 0; p < 101; p++) {
+      $("#counter").html(p+"%");
+    }
   $("#loader").css("display","none");
   $("#visible").css("display","block");
+  
+  p++; }, 10000,);
+
+  
 	$("body, html").scrollTop(0);
+  
 	$("a").on('click', function(event) {
 
     if (this.hash !== "") {

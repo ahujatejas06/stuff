@@ -31,7 +31,9 @@
 <section id="scrolldown">
   <a href="#about"><span></span></a>
 </section>
-
+</div>
+<div class="grids">
+	
 </div>
 <div id = "about">
 	<p> Qui aliqua ullamco occaecat ut sed occaecat mollit consequat consectetur et ad proident eu mollit duis id eu consequat eu elit fugiat in amet eiusmod cillum excepteur exercitation est eiusmod sint qui id non voluptate amet qui dolor quis dolor ut eu proident reprehenderit veniam occaecat fugiat excepteur incididunt incididunt non sit in in ullamco tempor id ut commodo in amet </p>
