@@ -145,7 +145,7 @@ body {
 .end{
   margin-right: 2rem;
 }
-#counter {
+/*#counter {
   color:white;
   position:absolute;
   margin:0;
@@ -153,6 +153,6 @@ body {
   top:49.5vh;
   left:calc((100% - 40px) / 2);
 
-}
+}*/
 
 /*# sourceMappingURL=header.css.map */

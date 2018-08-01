@@ -18,7 +18,7 @@
 		var typed = new Typed(".type", {
   strings: ["Hello World","Welcome to STUFF"],
   typeSpeed:50,
-  startDelay: 10500,
+  startDelay: 500,
   backSpeed:50,
   showCursor: false,// Default value
 });

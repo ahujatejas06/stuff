@@ -15,9 +15,9 @@
   
 	<section id="loader">
 		<div class="lds-ring"></div>
-    <div id="counter">
+    <!-- <div id="counter">
       0%
-    </div>
+    </div> -->
 
 	</section>
   <link rel = "stylesheet" type = "text/css" href = "css/header.css">

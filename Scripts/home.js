@@ -1,13 +1,11 @@
-var p;
+$(window).on(function(){
+  
+     
+});
 $(document).ready(function(){
-  setTimeout(function(){ 
-    for(p = 0; p < 101; p++) {
-      document.getElementById("counter").innerHTML = p + "%";
-    }
+  $("#loader").fadeOut(10);
   $("#loader").css("display","none");
   $("#visible").css("display","block");
-  
-  p++; }, 10000,);
 
   
 	$("body, html").scrollTop(0);
@@ -27,7 +25,11 @@ $(document).ready(function(){
     // 	$(this).prev().toggleClass("unactive", true);
     // 	$ count++;
     // };
-
+      if(this.className == "unactive") {
+        $(this).toggleClass("active");
+     $(this).next().toggleClass("active", false);
+      $(this).next().toggleClass("unactive", true);
+      }
       var scroll = this.hash;
       $('html, body').animate({
         scrollTop: $(scroll).offset().top
