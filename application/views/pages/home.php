@@ -29,7 +29,7 @@
 
 </div>
 <section id="scrolldown">
-  <a href="#about"><span></span></a>
+  <a href="#about"><span id = "scrbutton"></span></a>
 </section>
 </div>
 <div class="grids">

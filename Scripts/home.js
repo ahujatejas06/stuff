@@ -3,6 +3,12 @@ $(window).on(function(){
      
 });
 $(document).ready(function(){
+  $("#scrbutton").on('click',function(event) {
+    $("#unactive").next().removeClass("active");
+    $("#unactive").next().addClass("unactive");
+    $("#unactive").addClass("active");  
+    $("#unactive").removeClass("unactive");  
+  });
   $("#loader").fadeOut(10);
   $("#loader").css("display","none");
   $("#visible").css("display","block");
@@ -26,9 +32,11 @@ $(document).ready(function(){
     // 	$ count++;
     // };
       if(this.className == "unactive") {
-        $(this).toggleClass("active");
-     $(this).next().toggleClass("active", false);
-      $(this).next().toggleClass("unactive", true);
+        $(this).addClass("active");
+     $(this).next().removeClass("active");
+      $(this).next().addClass("unactive");
+      $(this).prev().removeClass("active");
+      $(this).prev().addClass("unactive");
       }
       var scroll = this.hash;
       $('html, body').animate({
@@ -39,6 +47,7 @@ $(document).ready(function(){
     };
   }
 );
+
 	});
 
 
