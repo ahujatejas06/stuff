@@ -1,14 +1,14 @@
 $(window).on(function(){
-  
+  $("loader").css("display","block");
      
 });
 $(document).ready(function(){
-  $("#scrbutton").on('click',function(event) {
-    $("#unactive").next().removeClass("active");
-    $("#unactive").next().addClass("unactive");
-    $("#unactive").addClass("active");  
-    $("#unactive").removeClass("unactive");  
-  });
+  // $("#scrbutton").on('click',function(event) {
+  //   $("#unactive").next().removeClass("active");
+  //   $("#unactive").next().addClass("unactive");
+  //   $("#unactive").addClass("active");  
+  //   $("#unactive").removeClass("unactive");  
+  // });
   $("#loader").fadeOut(10);
   $("#loader").css("display","none");
   $("#visible").css("display","block");
@@ -31,13 +31,13 @@ $(document).ready(function(){
     // 	$(this).prev().toggleClass("unactive", true);
     // 	$ count++;
     // };
-      if(this.className == "unactive") {
-        $(this).addClass("active");
-     $(this).next().removeClass("active");
-      $(this).next().addClass("unactive");
-      $(this).prev().removeClass("active");
-      $(this).prev().addClass("unactive");
-      }
+     //  if(this.className == "unactive") {
+     //    $(this).addClass("active");
+     // $(this).next().removeClass("active");
+     //  $(this).next().addClass("unactive");
+     //  $(this).prev().removeClass("active");
+     //  $(this).prev().addClass("unactive");
+     //  }
       var scroll = this.hash;
       $('html, body').animate({
         scrollTop: $(scroll).offset().top
