@@ -35,6 +35,7 @@
 <div id = "about">
 	Qui aliqua ullamco occaecat ut sed occaecat mollit consequat consectetur et ad proident eu mollit duis id eu consequat eu elit fugiat in amet eiusmod cillum excepteur exercitation est eiusmod sint qui id non voluptate amet qui dolor quis dolor ut eu proident reprehenderit veniam occaecat fugiat excepteur incididunt incididunt non sit in in ullamco tempor id ut commodo in amet 
 </div>
+
 <div class="grid">
 	<div>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium quia assumenda ducimus quae ipsa quidem doloremque hic voluptatem eaque, dolorem.
@@ -53,6 +54,7 @@
 	<div>
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, fugiat.
 	</div>
+
 
 </div>
 
